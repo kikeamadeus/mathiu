@@ -15,27 +15,31 @@
 <body>
     <section>
         <div class="container">
-            <h1 class="title">Calculadora</h1>
-            <h3 class="subtitle">Realiza las operaciones matematicas disponibles</h3>
-            <form action="" method="POST">
-                <div class="row">
-                    <input placeholder="Cantidad" value="0" min="0" max="99999999" id="num1" type="number">
-                    <select name="operacion" id="select">
-                        <option value="" selected disabled>opc</option>
-                        <option value="sum">+</option>
-                        <option value="res">-</option>
-                        <option value="mul">×</option>
-                        <option value="div">÷</option>
-                    </select>
-                    <input placeholder="Cantidad" value="0" min="0" max="99999999" id="num2" type="number">
+            <div class="card">
+                <div class="card-content">
+                    <h1 class="title">Operaciones Matemáticas</h1>
+                    <h3 class="subtitle">Realiza las operaciones matematicas disponibles</h3>
+                    <form action="" method="POST">
+                        <div class="row">
+                            <input placeholder="Cantidad" value="0" min="0" max="99999999" id="num1" type="number">
+                            <select name="operacion" id="select">
+                                <option value="" selected disabled>opc</option>
+                                <option value="sum">+</option>
+                                <option value="res">-</option>
+                                <option value="mul">×</option>
+                                <option value="div">÷</option>
+                            </select>
+                            <input placeholder="Cantidad" value="0" min="0" max="99999999" id="num2" type="number">
+                        </div>
+                        <button type="button" id="enviar">Ver Resultado</button>
+                        <p id="resultado"></p>
+                    </form>
                 </div>
-                <button type="button" id="enviar">Ver Resultado</button>
-                <p id="resultado"></p>
-            </form>
+            </div>
         </div>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="public/js/resultado.js"></script> 
+    <script src="public/js/resultado.js"></script>
 </body>
 </html>
