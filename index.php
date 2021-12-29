@@ -30,7 +30,7 @@
                     <input placeholder="Cantidad" value="0" min="0" max="99999999" id="num2" type="number">
                 </div>
                 <button type="button" id="enviar">Ver Resultado</button>
-                <div id="resultado"></div>
+                <p id="resultado"></p>
             </form>
         </div>
     </section>

@@ -12,11 +12,11 @@ if(isset($_POST['operacion'])) {
         echo "El resultado de la resta es: ".$res;
     }
     else if($_POST['operacion'] == "mul") {
-        $res = $num1 + $num2;
+        $res = $num1 * $num2;
         echo "El resultado de la multiplicación es: ".$res;
     }
     else if($_POST['operacion'] == "div") {
-        $res = $num1 + $num2;
+        $res = $num1 / $num2;
         echo "El resultado de la división es: ".$res;
     }
 }
