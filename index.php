@@ -17,11 +17,11 @@
         <div class="container">
             <div class="card">
                 <div class="card-content">
-                    <h1 class="title">Operaciones Matemáticas</h1>
-                    <h3 class="subtitle">Realiza las operaciones matematicas disponibles</h3>
+                    <h1 class="title">Mathiu</h1>
+                    <h4 class="subtitle">Realiza las operaciones matematicas disponibles</h4>
                     <form action="" method="POST">
                         <div class="row">
-                            <input placeholder="Cantidad" value="0" min="0" max="99999999" id="num1" type="number">
+                            <input placeholder="Cant." value="0" min="0" max="99999999" id="num1" type="number">
                             <select name="operacion" id="select">
                                 <option value="" selected disabled>opc</option>
                                 <option value="sum">+</option>
@@ -29,9 +29,9 @@
                                 <option value="mul">×</option>
                                 <option value="div">÷</option>
                             </select>
-                            <input placeholder="Cantidad" value="0" min="0" max="99999999" id="num2" type="number">
+                            <input placeholder="Cant." value="0" min="0" max="99999999" id="num2" type="number">
                         </div>
-                        <button type="button" id="enviar">Ver Resultado</button>
+                        <button class="btn-resultado" type="button" id="enviar">Ver Resultado</button>
                         <p id="resultado"></p>
                     </form>
                 </div>

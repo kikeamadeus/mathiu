@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    $('#num1').on('click', function(){
+        var num1 = $('#num1').val("")
+    })
+    $('#num2').on('click', function(){
+        var num2 = $('#num2').val("")
+    })
     $('#enviar').click(function() {
         var num1 = $('#num1').val()
         var opc = $('#select').val()

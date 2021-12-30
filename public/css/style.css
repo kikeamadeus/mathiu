@@ -28,7 +28,8 @@ h1 {
 .subtitle {
     font-weight: 500;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    color: red;
 }
 .card {
     background-color: #fff;
@@ -46,6 +47,58 @@ h1 {
 }
 .card-content {
     padding: 24px;
+}
+.row {
+    margin-bottom: 10px;
+}
+#num1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    width: 10%;
+    border: 2px solid #333;
+}
+#num2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    width: 10%;
+    border: 2px solid #333;
+}
+#select {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border: 2px solid #333;
+    vertical-align: middle;
+}
+.btn-resultado {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #22b35c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 16px;
+    letter-spacing: .5px;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+}
+.btn-resultado:hover {
+    background-color: #2ecb6d;
 }
 #resultado {
     font-weight: 500;
